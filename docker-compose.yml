@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  singeth:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: singeth
+    tty: true
+    volumes:
+      - .:/go-sintrop
+    ports:
+      - "3000:3000"
+    mem_limit: 1024mb
+volumes:
+  app:
+  postgres_db:
+  redis:
