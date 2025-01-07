@@ -5,8 +5,8 @@ package params
 // They will be the first point of contact for nodes coming online
 // to find peers.
 var SequoiaBootnodes = []string{
-	"enode://54533f5cf71e470f52e25841fe14af966f02b4da75846057791a83c2bf51791fd78e6a3ce77669faef595826f25219d180fd1a7cb124f9ed63d10104d8a8575d@bootsequoia.edevapps.com.br:30303",
-	"enode://f9088ef47ebeb29150e9f8ba051b0e5e8428e32a65f6eafa9a4a590334139e3d7be75528bb2d943d278d8256fd8e0d1923299b655a65568fd271ab7bb55d49ae@187.89.87.254:30303",
+	"enode://bd0e33eeb371f92b0cabaa487e7c41c80384645c8561c811cb723270ccf829d3a8aa2e27e5a410ca56652a0286f09f291ac5578c6084e48b4e317e4608f2b297@bootsequoia.edevapps.com.br:30303",
+	"enode://62e98d16c24d9000e849e3a11164393f471a126531900e270af435fc4984f8fd9326c4cae3f7cdea1650ddd644a096f63122de62a999ccfd2d8abb7760fb5bfe@189.5.4.127:30303",
 }
 
 // Once Sequoia network has DNS discovery set up,
